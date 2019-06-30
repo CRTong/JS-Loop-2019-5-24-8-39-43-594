@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <style type="text/css"></style>
+</head>
+<body>
+        <script type="text/javascript">
+            function nine (num) {
+                for(var i = 1; i <= num; i++){
+                    var str = '';
+                    for(var k = 1; k <= num; k++){
+                        if(i >= k){
+                            str += k + 'x' + i + '=' + i*k + ' ';
+                        }
+                    }
+                    document.write(str);
+                    document.write("<br >");
+                }
+            }
+            nine(9);
+        </script>
+</body>
+</html>
